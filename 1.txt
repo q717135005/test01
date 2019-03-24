@@ -7,3 +7,9 @@ $ git commit -m "2"
 
 lenovo@LAPTOP-6QDKNJ68 MINGW64 /d/temp/gitRepor (master)
 $ git push -u origin master
+
+
+touch .git-credentials
+vim .git-credentials
+https://{username}:{password}@git.gitHub.com
+git config --global credential.helper store
